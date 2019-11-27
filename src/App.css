@@ -2,8 +2,24 @@
   text-align: center;
 }
 
+button {
+  margin: 10px;
+  background-color: rgb(240, 198, 107);
+  color: rgb(2, 44, 8);
+  width: 140px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.lifecycles {
+  margin-top: 20px;
+}
+
 .App-logo {
+  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
+  pointer-events: none;
 }
 
 .App-header {
@@ -18,5 +34,5 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #61dafb;
 }
